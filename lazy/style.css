@@ -1,0 +1,705 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'lato', cursive;
+}
+
+html,
+body {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: relative;
+
+}
+
+/* end hide*/
+body {
+    background: rgb(0, 0, 0);
+
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    /* margin: 16rem; */
+    position: relative;
+    top: 14.5rem;
+    margin-left: 20rem;
+    width: 80%;
+}
+
+.head {
+    display: inline-block;
+    position: relative;
+    margin-left: 4rem;
+    bottom: -6rem;
+    justify-content: center;
+
+    margin: auto;
+}
+
+.head img {
+    cursor: pointer;
+    margin-left: 76rem;
+    position: relative;
+    top: -4.5rem;
+    transition: all 1s;
+    border-radius: 60rem;
+    width: 25%;
+}
+
+h2 {
+    color: rgb(255, 1, 1);
+    font-size: 4rem;
+    /* margin: 16rem; */
+    position: relative;
+    top: 14rem;
+    margin-left: 20rem;
+    width: 81%;
+}
+
+
+.head img:hover {
+    transform: scale(1.2);
+
+}
+
+.logo2 img {
+
+    float: right;
+    bottom: 7rem;
+    margin-right: 25px;
+    transition: all 1s;
+    cursor: pointer;
+
+
+    position: relative;
+
+}
+
+.logo2 img:hover {
+    transform: scale(1.1);
+}
+
+.email {
+    position: relative;
+    margin-top: -5rem;
+    right: -3.3rem;
+    float: right;
+    color: #fff;
+}
+
+.logo img {
+    position: relative;
+    cursor: pointer;
+    margin: 1.5rem 1rem;
+    bottom: 3rem;
+}
+
+h3 {
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    text-align: center;
+    top: 20rem;
+    position: relative;
+}
+
+.grid img {
+
+    width: 300px;
+    border-radius: 15px;
+    height: 300px;
+    transition: all 1s;
+    position: relative;
+    border: 3px solid rgb(255, 255, 255);
+
+}
+
+.grid {
+    display: flex;
+    flex-direction: column;
+    display: grid;
+    top: 28rem;
+    position: relative;
+    text-align: center;
+    /* justify-content: center; */
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+}
+
+.box img:hover {
+    /* transform: scale(1.2); */
+
+
+    border-color: rgb(0, 0, 0);
+}
+
+h6 {
+    color: rgb(255, 0, 0);
+    font-size: 3rem;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    top: 1.5rem;
+    position: relative;
+}
+
+.neo img {
+    width: 3.5%;
+    bottom: 1rem;
+    right: 1rem;
+    float: right;
+    /* position: relative; */
+    transition: all 1s;
+    position: fixed;
+    cursor: pointer;
+}
+
+.neo img:hover {
+    transform: rotate(25deg);
+
+}
+
+h4 {
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    /* width: 50%; */
+    margin: auto;
+    top: 4rem;
+    position: relative;
+}
+
+.Rec {
+    display: flex;
+    /* border: 2px solid red; */
+    flex-direction: column;
+    display: grid;
+    bottom: 8rem;
+    margin: 22rem;
+    left: 6rem;
+    grid-column-gap: 5px;
+    grid-row-gap: 30px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr))
+}
+
+.box1 {
+    color: white;
+    width: 400px;
+    height: 200px;
+    padding: 2px;
+    transition: all 1s;
+    /* position: absolute; */
+    border: 3px solid rgb(65, 57, 57);
+    background-color: rgb(21, 21, 34);
+    display: flex;
+
+    border-radius: 0px;
+
+}
+
+.box1:hover {
+    border-radius: 3.5rem;
+    transform: scale(1.2);
+}
+
+.h8 {
+    font-family: "Lato SemiBold";
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+    bottom: 10px;
+    margin: auto;
+    position: relative;
+
+}
+
+.h7 {
+    font-family: "Lato SemiBold";
+    font-size: 17px;
+    margin: -0.4rem auto;
+    position: relative;
+    top: 2.3rem;
+}
+
+.h9 {
+    font-family: "Lato SemiBold";
+    font-size: 17px;
+    line-height: 20px;
+    color: #fff;
+    position: relative;
+    top: 2.3rem;
+}
+
+.h10 {
+    font-family: "Lato SemiBold";
+    font-size: 17px;
+    line-height: 20px;
+    position: relative;
+    color: #fff;
+    left: 1rem;
+    top: 2.3rem;
+}
+
+img.text {
+    text-align: center;
+    bottom: 58rem;
+    justify-content: center;
+    right: 40rem;
+    position: relative;
+
+    transition: all 1.5s;
+}
+
+
+.text:hover {
+
+    transform: rotate(15deg);
+}
+
+p {
+    font-family: "Lato SemiBold";
+    color: antiquewhite;
+    bottom: 66rem;
+    position: relative;
+    text-align: center;
+    font-size: 8rem;
+}
+.down{
+    color: #fff;
+text-align: center;
+bottom: 30rem;
+position: relative;
+font-size: 25rem;
+width: 97%;
+}
+.nxt{
+    font-size: 15rem;
+    top: 20rem;
+    position: relative;
+}
+/* Responsive */
+
+@media (max-width:1600px){
+h4{
+    width: 100%;
+    top:17rem;
+    text-align: center;
+}
+.Rec{
+    top: 2rem;
+}
+img.text{
+bottom: 50em;
+}
+p{
+    bottom: 60rem;
+}
+}
+
+@media (max-width:1620px){
+
+    .head img{
+        display: none;
+    }
+ .head {
+        bottom: 6rem;
+        text-align: center;
+        width: 75%;
+
+
+    }
+
+    .logo2 {
+        width: 100%;
+    }
+}
+.box1{
+    text-align: center;
+    width: 65%;
+}
+.h10{
+    width: 88%;
+}
+ img.text{
+    text-align: center;
+left: 30rem;
+}
+
+@media (max-width:1508px){
+    h4{
+        width: 100%;
+        top:17rem;
+        text-align: center;
+    }
+    .down{
+        display: none;
+    }
+       
+    .Rec{
+        top: 20rem;
+        width: 45%; 
+    text-align: center;
+    margin: auto;
+    }
+    img.text{
+bottom: -20rem;
+    }
+    p{
+        bottom: -10rem;
+    }
+    }
+@media (max-width:1472px) {
+    h6 {
+        width: 101%;
+   
+
+    }
+}
+    @media (max-width:1300px) {
+    
+        .logo2 {
+            width: 103%;
+    
+    
+        }
+    }
+@media (max-width:1250px) {
+    
+    .grid {
+        width: 128%;
+
+        
+        text-align: center;
+    }
+    .head{
+        width: 100%;
+    }
+    h6 {
+        text-align: center;
+        width: 130%;
+    }
+    
+    .logo2 {
+
+        position: relative;
+        width: 129%;
+        
+        
+    }
+    p{
+      left: 13rem;
+    }
+
+
+.res{
+width: 130%;
+}
+    h3 {
+        text-align: center;
+    }
+    
+    h3 {
+        text-align: center;
+        left: 10.4rem;
+    }
+    
+}
+
+
+
+
+
+
+@media (max-width:1000px) {
+
+
+
+    .logo2 {
+        width: 130%;
+
+    }
+
+h6{
+width: 130%;
+
+ }
+.head{
+width: 85%;
+} 
+img.text{
+    left: 20rem;
+    
+}
+P{
+    left: 11rem;
+}
+}
+@media (max-width:937px) {
+
+
+.logo img{
+    bottom: 6rem;
+}
+.logo2{
+    bottom: 4rem;
+}
+    .Rec{
+        top: 45rem;
+   }
+h4{
+    top:36rem;
+}
+h6{
+width: 65%; 
+left: 10rem;
+}
+img.text{
+    left: 20rem;
+    bottom: -45rem;
+    
+}
+P{
+    left: 11rem;
+    bottom: -35rem;
+}
+}
+@media (max-width:768px){
+    h6{
+        left: 9rem;
+    }
+    .logo2{
+        left: 1rem;
+    }
+    .grid{
+    width: 115%;
+    left: 5rem;
+    }
+    .head{
+        width: 85%;
+      right: 3rem;
+    }
+     .box1{
+        width: 75%;
+     
+    }
+    h4{
+        width: 102%;
+    } 
+
+img.text{
+ left: 14rem;
+}
+}
+@media (max-width:540px){
+    h6{
+        left: 13rem;
+    }
+    h3{
+        left:13rem;
+        text-align: center;
+        width: 100%;
+    }
+    .logo2{
+        left: 13rem;
+        bottom: 6rem;
+    }
+    .logo img{
+  
+        bottom: 8.2rem;
+    }
+    .grid{
+    width: 150%;
+    left: 4rem;
+    }
+    .head{
+        width: 110%;
+      right: 4.5rem;
+    
+    }
+     .Rec{
+      left: 10.5rem;
+     
+     
+    }
+    h4{
+        width: 102%;
+        left: 7.5rem;
+    } 
+
+img.text{
+ left: 9rem;
+}
+p{
+    left: 12rem;
+}
+}
+@media (max-width:480px){
+    h6{
+        left: 12rem;
+        width: 70%;
+    }
+    h3{
+        left:13rem;
+        text-align: center;
+        width: 100%;
+    }
+    .logo2{
+        left: 13rem;
+        bottom: 6rem;
+    }
+    .logo img{
+  
+        bottom: 8.2rem;
+    }
+    .grid{
+    width: 150%;
+    left: 5.3rem;
+    }
+    .head{
+        width: 122%;
+      right: 7.2rem;
+    
+    }
+     .Rec{
+      left: 10.5rem;
+     
+     
+    }
+    h4{
+        width: 102%;
+        left: 7.5rem;
+    } 
+}
+@media (max-width:450px){
+    h6{
+        left: 14rem;
+        width: 80%;
+    }
+    h3{
+        left:13rem;
+        text-align: center;
+        width: 100%;
+    }
+    .logo2{
+        left: 17rem;
+        bottom: 6rem;
+    }
+    .logo img{
+  
+        bottom: 8.2rem;
+    }
+    .grid{
+    width: 150%;
+    left: 6.8rem;
+    }
+    .head{
+        width: 142%;
+      right: 8rem;
+    
+    }
+     .Rec{
+      left: 12.5rem;
+     
+     
+    }
+    h4{
+        width: 102%;
+        left: 8.8rem;
+    } 
+}
+@media (max-width:393px){
+    h6{
+        left: 14rem;
+        width: 81%;
+    }
+    h3{
+        left:14.8rem;
+        text-align: center;
+        width: 100%;
+    }
+    .logo2{
+      
+        bottom: 7rem;
+    }
+    .logo img{
+  
+        bottom: 9.2rem;
+    }
+    .grid{
+    width: 150%;
+    left: 8.5rem;
+    }
+    .head{
+        width: 152%;
+      right: 8rem;
+    
+    }
+     .Rec{
+      left: 14.5rem;
+     
+     
+    }
+    h4{
+        width: 102%;
+        left: 9.8rem;
+    } 
+    p{
+        width: 150%;
+        left: 9rem;
+    }
+    img.text{
+        left: 7rem;
+    }
+}
+@media (max-width:320px){
+    h6{
+        left: 16rem;
+        
+    }
+    h3{
+        left:16.2rem;
+        text-align: center;
+        width: 100%;
+    }
+    .logo2{
+        left: 25rem;
+        bottom: 9rem;
+    }
+    .logo img{
+  
+        bottom: 12rem;
+    }
+    .grid{
+    width: 150%;
+    left: 11.5rem;
+    }
+    .head{
+        width: 152%;
+      right: 6rem;
+    
+    }
+     .Rec{
+      left: 16.5rem;
+     
+     
+    }
+    h4{
+        width: 102%;
+        left: 12.8rem;
+    } 
+    p{
+        width: 150%;
+        left: 12.5rem;
+    }
+    img.text{
+        left: 4rem;
+    }
+}
